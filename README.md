@@ -2,27 +2,27 @@
 Interactive Frontend Development Milestone Project, Code Institute
 
 
-##UX
+## UX
 
 
-##Features
+## Features
 
 
-##Technologies Used
+## Technologies Used
 
-*JQuery
-
-
-##Testing
+* JQuery
 
 
-##Deployment
+## Testing
 
 
-##Credits
+## Deployment
 
-###Content
 
-###Media
+## Credits
 
-###Acknowledgements
+### Content
+
+### Media
+
+### Acknowledgements
