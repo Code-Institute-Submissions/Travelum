@@ -8,11 +8,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Holiday Destinations</title>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_60gyHQ7LQ4uEDmerSzsmS");
+   })();
+</script>
 </head>
 <body>
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#home-section"></a>
+    <a class="mr-auto" href="#home-section"><h3>Holiday Destinations</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse;" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<section>
+<div class="row">
+      <div class="col-sm-12">
+        <img src="#" class="img-gallery images-hover" width=570 height=450 alt="profile image">
+      </div>
+    </div>
+  </section>
+
 
 <div>         
- <form>
+ <form onsubmit="return sendMail(this);">
           <div class="form-group col-sm-12">
             <input type="text" class="form-control" id="name" placeholder="Name" required>
           </div>
@@ -60,6 +92,8 @@
       </div>
     </div>
 </footer>
+    <script src="assets/js/sendEmail.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
