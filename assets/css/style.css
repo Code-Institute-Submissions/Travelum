@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+
+.row {
+    margin: 0;
+}
+
+/*----HEADINGS & TEXT----*/
+
+p {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+
+/*--------------------------FOOTER-*/
+
+.container-footer {
+    padding: 1.6rem 0 0 0;
+    background: #343a40;
+}
+
+.footer-contact-icons {
+    font-size: 0.75rem;
+}
+
+.social-media-icons li a i {
+    font-size: 2.5rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+}

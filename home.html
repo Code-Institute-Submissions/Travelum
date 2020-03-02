@@ -19,7 +19,6 @@
   </button>
     <div class="collapse navbar-collapse;" id="navbarNavDropdown">
       <ul class="navbar-nav">
-
         <li class="nav-item active">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
@@ -28,20 +27,22 @@
   </nav>
 
   <section class="container-fluid text-center" id="home-section">
-    <!-- JUMBOTRON -->
    <div class="row">
-     <div class="col-sm-12 text-center jumbotron">
+     <div class="col-sm-12">
          <div id="map"></div>
     </div>
     </div>
-    <!-- /JUMBOTRON -->
   </section>
 
   <section class="container-fluid text-center" id="images-section">
     <div class="row">
       <div class="col-sm-12 col-lg-4">       
-        <h2>LANDMARKS<i class="fas fa-landmark" aria-hidden="true"></i></h2>   
+        <h2>LANDMARKS<i class="fas fa-landmark" aria-hidden="true"></i></h2>
+        </div>
+        <div class="col-sm-12 col-lg-4">   
         <h2>ADVENTURES<i class="fas fa-helicopter" aria-hidden="true"></i></h2>  
+        </div>
+        <div class="col-sm-12 col-lg-4">  
         <h2>FOOD<i class="fas fa-utensils" aria-hidden="true"></i></h2>   
       </div>
     </div>
@@ -104,6 +105,34 @@
       </div>
     </div>
 </footer>
+    <script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 3,
+          center: {
+              lat: -28.024, 
+              lng: 140.887}
+        });
+
+         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+         var locations = {
+            {lat: -31.563910, lng: 147.154312},
+            {lat: -33.718234, lng: 150.363181},
+            {lat: -33.727111, lng: 150.371124},
+         }
+
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
+        </script>
+
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&callback=initMap"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
