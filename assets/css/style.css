@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #000;
+    color: #fafafa;
     font-weight: 500;
 }
 
@@ -60,6 +60,7 @@ h3 {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background: #014374;
 }
 
 #home-section {
@@ -68,24 +69,39 @@ h3 {
 }
 
 #maps-section {
-    background: #000;
+    background: #4682B4;
     background-size: cover;
 }
 
 #gallery-section {
-    background: #3CB371;
+    background: #4682B4;
     background-size: cover;
+}
+
+#contact-section {
+    background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+    background-size: cover;
+}
+
+#form-section {
+    background: #000;
+    background-size: cover;
+    padding: 60px 100px;
+}
+
+.form-size {
+    margin: auto 400px;
 }
 
 /*--- ----------------------NAVBAR---*/
 
 .navbar-brand {
-    background: url("../images/#");
+    background: url(https://www.brandbucket.com/sites/default/files/logo_uploads/70900/large_travelum-thumbnail.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
@@ -116,6 +132,16 @@ h3 {
     opacity: 1;
     font-weight: 700;
 }
+
+/*--------------------------BUTTONS-*/
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-top: 20px;
+}
+
 
 /*--------------------------FOOTER-*/
 
