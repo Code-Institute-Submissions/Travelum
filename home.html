@@ -32,6 +32,31 @@
         <h1>Travelum</h1>
         <p><i>Find your next travel destination</i></p>
         <!--Search Bar Box-->
+        <div class="pac-card" id="pac-card">
+  <div>
+    <div id="title">
+      Destination
+    </div>
+    <div id="country-selector" class="pac-controls">
+      <input type="radio" name="type" id="changecountry-bar">
+      <label for="changecountry-usa">Barcelona</label>
+
+      <input type="radio" name="type" id="changecountry-usa-and-uot" checked="checked">
+      <label for="changecountry-usa-and-uot">USA and unincorporated organized territories</label>
+    </div>
+  </div>
+  <div id="pac-container">
+    <input id="pac-input" type="text"
+        placeholder="Enter a destination">
+  </div>
+</div>
+<!--
+<div id="infowindow-content">
+  <img src="" width="16" height="16" id="place-icon">
+  <span id="place-name"  class="title"></span><br>
+  <span id="place-address"></span>
+</div>
+-->
       </div>
     </div>
 
@@ -96,6 +121,7 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="assets/js/maps.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCtGA0mcNNo4HpiNmHnTlDqN4kEZysBoo&libraries=places"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&callback=initMap"></script>
     <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
