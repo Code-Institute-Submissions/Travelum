@@ -50,20 +50,91 @@
         placeholder="Enter a destination">
   </div>
 </div>
-<!--
-<div id="infowindow-content">
-  <img src="" width="16" height="16" id="place-icon">
-  <span id="place-name"  class="title"></span><br>
-  <span id="place-address"></span>
-</div>
--->
       </div>
     </div>
+
+<!----------------- Google Maps API, Place Autocomplete-->
+<div class="hotel-search">
+  <div id="findhotels">
+    Destinations:
+  </div>
+
+  <div id="locationField">
+    <input id="autocomplete" placeholder="Enter a city" type="text" />
+  </div>
+
+  <div id="controls">
+    <select id="country">
+      <option value="all">All</option>
+      <option value="au">Australia</option>
+      <option value="br">Brazil</option>
+      <option value="ca">Canada</option>
+      <option value="fr">France</option>
+      <option value="de">Germany</option>
+      <option value="mx">Mexico</option>
+      <option value="nz">New Zealand</option>
+      <option value="it">Italy</option>
+      <option value="za">South Africa</option>
+      <option value="es">Spain</option>
+      <option value="pt">Portugal</option>
+      <option value="us" selected>U.S.A.</option>
+      <option value="uk">United Kingdom</option>
+    </select>
+  </div>
+   <div class="text-center" id="search">
+            <div class="markers">
+                <label class="radio" for="lodging">Landmarks
+                    <input onchange="search('lodging')" type="radio" id="loging" name="option" checked="checked" />
+                    <span class="selected"></span>
+                </label>
+                <label class="radio" for="restaurant">Restaurants
+                    <input onchange="search('restaurant')" type="radio" id="restaurant" name="option" />
+                    <span class="selected"></span>
+                </label>
+                <label class="radio" for="shopping_mall">Activities
+                    <input onchange="search('shopping_mall')" type="radio" id="shopping_mall" name="option" />
+                    <span class="selected"></span>
+                </label>
+            </div>
+        </div>
+</div>
 
   <section class="container-fluid text-center" id="maps-section">
    <div class="row">
      <div class="col-sm-12">
          <div id="map"></div>
+         <div id="listing">
+  <table id="resultsTable">
+    <tbody id="results"></tbody>
+  </table>
+</div>
+
+<div style="display: none">
+  <div id="info-content">
+    <table>
+      <tr id="iw-url-row" class="iw_table_row">
+        <td id="iw-icon" class="iw_table_icon"></td>
+        <td id="iw-url"></td>
+      </tr>
+      <tr id="iw-address-row" class="iw_table_row">
+        <td class="iw_attribute_name">Address:</td>
+        <td id="iw-address"></td>
+      </tr>
+      <tr id="iw-phone-row" class="iw_table_row">
+        <td class="iw_attribute_name">Telephone:</td>
+        <td id="iw-phone"></td>
+      </tr>
+      <tr id="iw-rating-row" class="iw_table_row">
+        <td class="iw_attribute_name">Rating:</td>
+        <td id="iw-rating"></td>
+      </tr>
+      <tr id="iw-website-row" class="iw_table_row">
+        <td class="iw_attribute_name">Website:</td>
+        <td id="iw-website"></td>
+      </tr>
+    </table>
+  </div>
+</div>
     </div>
     </div>
   </section>
@@ -121,9 +192,7 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="assets/js/maps.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCtGA0mcNNo4HpiNmHnTlDqN4kEZysBoo&libraries=places"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&callback=initMap"></script>
-    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&libraries=places&callback=initMap"
+        async defer></script>
 </body>
 </html>
