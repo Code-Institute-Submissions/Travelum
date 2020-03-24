@@ -32,11 +32,7 @@
         <h1>Travelum</h1>
         <p><i>Find your next travel destination</i></p>
         <!--Search Bar Box-->
-        <div class="pac-card" id="pac-card">
-  <div>
-    <div id="title">
-      Destination
-    </div>
+<!--
     <div id="country-selector" class="pac-controls">
       <input type="radio" name="type" id="changecountry-bar">
       <label for="changecountry-usa">Barcelona</label>
@@ -52,13 +48,30 @@
 </div>
       </div>
     </div>
+-->
 
 <!----------------- Google Maps API, Place Autocomplete-->
-<div class="hotel-search">
-  <div id="findhotels">
+<div class="hotel-search pac-card" id="pac-card">
+
+  <div id="findhotels title pac-container changecountry-bar">
     Destinations:
   </div>
-
+   <div class="text-center pac-controls" id="search">
+            <div class="markers">
+                <label class="radio" for="lodging">Landmarks
+                    <input onchange="search('lodging')" type="radio" id="loging" name="option" checked="checked" />
+                    <span class="selected"></span>
+                </label>
+                <label class="radio" for="restaurant">Restaurants
+                    <input onchange="search('restaurant')" type="radio" id="restaurant" name="option" />
+                    <span class="selected"></span>
+                </label>
+                <label class="radio" for="shopping_mall">Activities
+                    <input onchange="search('shopping_mall')" type="radio" id="shopping_mall" name="option" />
+                    <span class="selected"></span>
+                </label>
+            </div>
+        </div>
   <div id="locationField">
     <input id="autocomplete" placeholder="Enter a city" type="text" />
   </div>
@@ -81,34 +94,23 @@
       <option value="uk">United Kingdom</option>
     </select>
   </div>
-   <div class="text-center" id="search">
-            <div class="markers">
-                <label class="radio" for="lodging">Landmarks
-                    <input onchange="search('lodging')" type="radio" id="loging" name="option" checked="checked" />
-                    <span class="selected"></span>
-                </label>
-                <label class="radio" for="restaurant">Restaurants
-                    <input onchange="search('restaurant')" type="radio" id="restaurant" name="option" />
-                    <span class="selected"></span>
-                </label>
-                <label class="radio" for="shopping_mall">Activities
-                    <input onchange="search('shopping_mall')" type="radio" id="shopping_mall" name="option" />
-                    <span class="selected"></span>
-                </label>
-            </div>
-        </div>
+
 </div>
 
   <section class="container-fluid text-center" id="maps-section">
    <div class="row">
-     <div class="col-sm-12">
+     <div class="col-10">
          <div id="map"></div>
+     </div>
+
+<div class="col-2">
          <div id="listing">
   <table id="resultsTable">
     <tbody id="results"></tbody>
   </table>
-</div>
+<!-- </div> -->
 
+<!--
 <div style="display: none">
   <div id="info-content">
     <table>
@@ -116,7 +118,7 @@
         <td id="iw-icon" class="iw_table_icon"></td>
         <td id="iw-url"></td>
       </tr>
-      <tr id="iw-address-row" class="iw_table_row">
+      <tr id="iw-address-row" class="iw_table_row" style="background-color: rgb(255, 155, 255);">
         <td class="iw_attribute_name">Address:</td>
         <td id="iw-address"></td>
       </tr>
@@ -135,8 +137,10 @@
     </table>
   </div>
 </div>
+-->
     </div>
     </div>
+   </div>
   </section>
 
   <section class="container-fluid text-center" id="images-section">
@@ -172,7 +176,7 @@
           </li>
           <li class="list-inline-item">
             <a href="https://github.com/Sebastian-Torres-Matrix" target="_blank">
-            <i class="fab fa-github-square media-hover" aria-hidden="true"></i>
+            <i class="fa fa-github-square media-hover" aria-hidden="true"></i>
           </a>
           </li>
           <li class="list-inline-item">
@@ -193,6 +197,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="assets/js/maps.js" defer></script>
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&libraries=places&callback=initMap"
-        async defer></script>
+        defer></script>
 </body>
 </html>
