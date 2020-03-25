@@ -1,163 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
-
-#map{
-        height: 400px;
-        width: 80%;
-        display: block; 
-        margin: auto;
-    }
-
+html,
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #fafafa;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-.row {
-    margin: 0;
-    padding: 0;
-}
-
-/*----HEADINGS & TEXT----*/
-
-p {
-    margin-top: 0;
-    font-size: 1.25rem;
-    font-weight: 400;
-}
-
-h1 {
-    margin-top: 3rem;
-    padding: 1rem;
-    font-weight: 500;
-}
-
-h2 {
-    text-decoration: none;
-    margin: 2em 0em 1em;
-}
-
-h3 {
-    margin-bottom: 0;
-    line-height: 0;
-}
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: lightblue;
+      }
 
 
-/*----BACKGROUNDS---*/
+      #map {
+        height: 90%;
+        width: 95%;
+        margin: 3rem auto;
+        padding: 0;
+      }
 
-.container-fluid,
-.footer {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background: #4682B4;
-}
-
-#home-section {
-    background: #014374;
-    background-size: cover;
-}
-
-#maps-section {
-    background: #4682B4;
-    background-size: cover;
-}
-
-#gallery-section {
-    background: #014374;
-    background-size: cover;
-}
-
-#contact-section {
-    background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
-    background-size: cover;
-    height: 100vh; 
-}
-
-#form-section {
-    background: #000;
-    background-size: cover;
-    padding: 60px 100px;
-}
-
-/*-------------------------------Search Box-*/
-#description {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-#infowindow-content .title {
-  font-weight: bold;
-}
-
-#infowindow-content {
-  display: none;
-  display: inline;
-}
-
-.pac-card {
-  margin: 1rem 20rem;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  outline: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
-}
-
-#pac-container {
-  padding-bottom: 12px;
-  margin-right: 12px;
-}
-
-.pac-controls {
-  display: inline-block;
-  padding: 5px 11px;
-}
-
-.pac-controls label {
-  font-size: 13px;
-  font-weight: 300;
-}
-
-#pac-input {
-  background-color: #fff;
-  font-size: 15px;
-  font-weight: 300;
-  margin-left: 12px;
-  padding: 0 11px 0 13px;
-  text-overflow: ellipsis;
-  width: 400px;
-}
-
-#pac-input:focus {
-  border-color: #4d90fe;
-}
-
-#title {
-  color: #fff;
-  background-color: #4d90fe;
-  font-size: 25px;
-  font-weight: 500;
-  padding: 6px 12px;
-}
-
-
-/*--- ----------------------NAVBAR---*/
-
-.navbar-brand {
+      .navbar-brand {
     background: url(https://www.brandbucket.com/sites/default/files/logo_uploads/70900/large_travelum-thumbnail.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -167,8 +25,9 @@ h3 {
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
-    border-radius: 1.25rem;
+    border-radius: 0.25rem;
     margin-left: 5px;
+    background-color: #fff;
 }
 
 .navbar-collapse {
@@ -196,26 +55,6 @@ h3 {
     font-weight: 700;
 }
 
-/*--------------------------IMAGES-*/
-img {
-    vertical-align: middle;
-    border-style: none;
-    margin-bottom: 5em;
-}
-
-
-/*--------------------------BUTTONS-*/
-
-.btn-success {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    margin-top: 20px;
-}
-
-
-/*--------------------------FOOTER-*/
-
 .container-footer {
     padding: 1.6rem 0 0 0;
     background: #343a40;
@@ -236,45 +75,24 @@ img {
 
 .copyright {
     font-size: 0.9rem;
+    color: #fafafa;
+}
+
+#contact-section {
+    background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+    background-size: cover;
+    height: 100vh; 
+}
+
+#form-section {
+    background: #000;
+    background-size: cover;
+    padding: 60px 100px;
 }
 
 
-
-
-/*--------------------------------------MAPS API*/
-
-
-#controls {
-  -webkit-box-flex: 1 1 140px;
-  -ms-flex: 1 1 140px;
-  flex: 1 1 140px;
-}
-
-}
-.placeIcon {
-  width: 20px;
-  height: 34px;
-  margin: 4px;
-}
-.hotelIcon {
-  width: 24px;
-  height: 24px;
-}
-#resultsTable {
-  border-collapse: collapse;
-  width: 240px;
-}
-#rating {
-  font-size: 13px;
-  font-family: Arial Unicode MS;
-}
-.iw_table_row {
-  height: 18px;
-}
-.iw_attribute_name {
-  font-weight: bold;
-  text-align: right;
-}
-.iw_table_icon {
-  text-align: right;
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 5em;
 }
