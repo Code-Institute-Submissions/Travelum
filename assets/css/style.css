@@ -11,6 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .container-fluid {
