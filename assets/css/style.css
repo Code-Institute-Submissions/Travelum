@@ -67,6 +67,7 @@ body {
 .container-footer {
     padding: 1.6rem 0 0 0;
     background: #343a40;
+    background-size: cover;
 }
 
 .footer-contact-icons {
@@ -93,7 +94,7 @@ body {
     background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 80vh; 
     background-repeat: no-repeat;
     margin: 0;
 }
@@ -101,13 +102,15 @@ body {
 #form-section {
     background: #000;
     background-size: cover;
-    padding: 60px 100px;
+    padding: 2rem 0;
 }
 
 .form-size {
-    width: 60%;
+    width: 60vw;
     margin: auto;
+    padding: 4rem 6 rem;
 }
+
 
 /*----------------------------IMAGES*/
 
