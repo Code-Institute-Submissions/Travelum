@@ -1,5 +1,5 @@
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
+    let map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(41.390205, 2.154007),
         zoom: 2
     });
@@ -7,7 +7,7 @@ function initMap() {
     var locations = [
         ['<b><a href="bar.html">Barcelona</a></b><br>Country: Spain<br>Language: Spanish<br>Population: 5.5 million<br>Currency: Euro<br><img src="https://images.unsplash.com/photo-1562883676-8c7feb83f09b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 41.390205, 2.154007, 1],
         ['<b><a href="rio.html" onclick="myFunction()">Rio De Janeiro</a></b><br>Country: Brazil<br>Language: Portugese<br>Population: 6.3 million<br>Currency: Brazilian Real<br><img src="https://images.unsplash.com/photo-1507125524815-d9d6dccda1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', -22.908333, -43.196388, 5],
-        ['<button onclick="myFunction()">Try it</button><br>Country: USA<br>Language:English<br>Population: 8.6 million<br>Currency: U.S. Dollar<br><img src="https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 40.73061, -73.935242, 4],
+        ['<button onclick="myFunction()">New York</button><br>Country: USA<br>Language:English<br>Population: 8.6 million<br>Currency: U.S. Dollar<br><img src="https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 40.73061, -73.935242, 4],
         ['<b><a href="dub.html">Dublin</a></b><br>Country: Ireland<br>Language: English & Irish<br>Population: 1.4 million<br>Currency: Euro<br><img src="https://images.unsplash.com/photo-1565788879729-be4bb0f137cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 53.35014, -6.266155, 3],
         ['<b><a href="sthlm.html">Stockholm</a></b><br>Country: Sweden<br>Language: Swedish<br>Population: 1 million<br>Currency: Swedish Krona<br><img src="https://images.unsplash.com/photo-1572225303717-a96db5e8d8b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 59.334591, 18.06324, 2],
         ['<b><a href="syd.html">Sydney</a></b><br>Country: Australia<br>Language: English<br>Population: 5.2 million<br>Currency: Australian Dollar<br><img src="https://images.unsplash.com/photo-1524293581917-878a6d017c71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', -33.865143, 151.2099, 6],
