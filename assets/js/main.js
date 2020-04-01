@@ -4,7 +4,7 @@ function initMap() {
         zoom: 2
     });
 
-    var locations = [
+    let locations = [
         ['<b><a href="bar.html">Barcelona</a></b><br>Country: Spain<br>Language: Spanish<br>Population: 5.5 million<br>Currency: Euro<br><img src="https://images.unsplash.com/photo-1562883676-8c7feb83f09b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 41.390205, 2.154007, 1],
         ['<b><a href="rio.html">Rio De Janeiro</a></b><br>Country: Brazil<br>Language: Portugese<br>Population: 6.3 million<br>Currency: Brazilian Real<br><img src="https://images.unsplash.com/photo-1507125524815-d9d6dccda1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', -22.908333, -43.196388, 5],
         ['<a href="javascript:;" onclick="myFunction()">New York</a><br>Country: USA<br>Language:English<br>Population: 8.6 million<br>Currency: U.S. Dollar<br><img src="https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">', 40.73061, -73.935242, 4],
@@ -16,8 +16,7 @@ function initMap() {
         ['<b><a href="ct.html">Cape Town</a></b><br>Country: South Africa<br>Language: English<br>Population: 0.4 million<br>Currency: South African Rand<br><img src="https://images.unsplash.com/photo-1496497243327-9dccd845c35f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150" py-2>', -33.918861, 18.4233, 9]
     ];
 
-
-    var marker, i;
+    let marker, i;
 
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
@@ -38,8 +37,8 @@ function initMap() {
         );
     }
     
-    var currentInfoWindow = null;
-    var infowindow = new google.maps.InfoWindow({});
+    let currentInfoWindow = null;
+    let infowindow = new google.maps.InfoWindow({});
 
     
     google.maps.event.addListener(marker, "click", function () {
