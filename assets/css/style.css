@@ -3,41 +3,49 @@ body {
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #3498DB;
-      }
+        background-color: #3175a2;       
+        }
 
-      #map {
+        #map-headline {
+        color: #fff;
+        margin: 5rem auto 1rem auto;
+        font-size: 2rem;
+        }
+
+        #map {
         height: 80%;
         width: 80%;
-        margin: 6rem auto 3rem auto;
+        margin: 1rem auto 3rem auto;
         padding: 0;
-      }
+        }
 
-          #myCountry {
+        #myCountry {
         position: relative;
         overflow: hidden;
-        display: block;
-        background: black;
-        color: #fafafa;
-    }
+        display: none;
+        background: url(https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(0.4rem);
+        }
 
 /*NAVBAR*/
-      .navbar-brand {
+    .navbar-brand {
     background: url(https://www.brandbucket.com/sites/default/files/logo_uploads/70900/large_travelum-thumbnail.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 6rem;
     height: 1.9rem;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
     border-radius: 0.25rem;
     margin-left: 0.3rem;
     background-color: #fff;
     opacity: 0.9;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
-
 
 .navbar-nav a:hover {
     opacity: 0.9;
@@ -45,7 +53,6 @@ body {
 }
 
 /*FOOTER*/
-
 .container-footer {
     padding: 1.6rem 0 0 0;
     background: #343a40;
@@ -70,18 +77,16 @@ body {
             transform: scale(1.1);
 }
 
-
 .list-inline-item {
     margin: 1em 2em 0em;
 }
 
 .copyright {
+    color: #fff;
     font-size: 0.9rem;
-    color: #fafafa;
 }
 
 /*CONTACT SECTION*/
-
 #contact-section {
     background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
     background-size: cover;
@@ -91,9 +96,7 @@ body {
     margin: 0;
 }
 
-
 /*FORM*/
-
 #form-section {
     background: #000;
     background-size: cover;
@@ -103,24 +106,32 @@ body {
 .form-size {
     width: 60vw;
     margin: auto;
-    padding: 4rem 6 rem;
+    padding: 4rem 6rem;
 }
 
-
 /*IMAGES*/
-
 #img-headline {
+    color: #fff;
     margin: 2rem auto;
     text-decoration: underline;
 }
 
+h2 {
+    color: #fff;
+}
 
 img {
     vertical-align: middle;
     border-style: none;
     margin-bottom: 5em;
+    z-index: 2;
 }
 
+.img-gallery {
+    -webkit-box-shadow: 5px 10px 16px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 16px 8px rgba(0,0,0,0.75);
+     box-shadow: 5px 10px 16px 8px rgba(0,0,0,0.75);
+}
 
 /*BUTTONS*/
 .btn-success {
@@ -128,7 +139,6 @@ img {
 }
 
 /*MEDIA QUERIES*/
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .img-gallery {
         width: 18rem;
@@ -145,6 +155,6 @@ img {
 
 @media (min-width: 992px) {
     .form-size {
-    width: 45vw;
+        width: 45vw;
     }
 }

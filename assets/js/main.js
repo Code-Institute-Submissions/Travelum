@@ -69,14 +69,12 @@ function initMap() {
     });
 }
 
-
-
 function myFunction() {
-  let myLocation = document.getElementById("myCountry");
-  if (myLocation.style.display === "none") {
-    myLocation.style.display = "block";
-  } else {
-    myLocation.style.display = "none";
-  }
+    let myLocation = document.getElementById("myCountry");
+    if (myLocation.style.display === "none") {
+        myLocation.style.display = "block";
+    } else {
+        myLocation.style.display = "none";
+    }
 }
 

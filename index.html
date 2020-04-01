@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Home | Travelum</title>
+	<script src="assets/js/main.js" async defer></script>
 </head>
 
 <body>
 	<header>
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-			<a class="navbar-brand mr-auto" href="index.html"></a>
-           
+			    <a class="navbar-brand mr-auto" href="index.html"></a>
 			<div class="navbar-nav">
-                    <span class="nav-item active">
-						<a class="nav-link" href="contact.html" aria-hidden="true">Contact</a>
-                        </span>
-
+				<span class="nav-item active">
+			    <a class="nav-link" href="contact.html" aria-hidden="true">Contact</a>
+                </span>
 			</div>
 		</nav>
 	</header>
-
+	<p id="map-headline" class="text-center">Welcome to Travelum</p>
 	<div id="map"></div>
-    
-	<section class="container-fluid text-center" id="myCountry" >
+
+	<section class="container-fluid text-center" id="myCountry">
 		<div id="images-section" class="row">
-        <div class="col-sm-12" id="img-headline">
-        <h1>NEW YORK</h1>
-        </div>
+			<div class="col-sm-12" id="img-headline">
+				<h1>NEW YORK</h1>
+			</div>
 			<div class="col-sm-12 col-md-4">
-				<h2>LANDMARKS<i class="fas fa-landmark" aria-hidden="true"></i></h2>
-				<img class="img-gallery" src="https://images.unsplash.com/photo-1560704194-8afbc567d52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" class="img-gallery images-hover" width=380 height=300 alt="landmarks image">
+				<h2><i class="fa fa-binoculars" aria-hidden="true"></i> LANDMARKS</h2>
+				<img class="img-gallery" src="https://images.unsplash.com/photo-1434828927397-62ea053f7a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" width=380 height=300 alt="landmarks image">
       </div>
 				<div class="col-sm-12 col-md-4">
-					<h2>ADVENTURES<i class="fas fa-helicopter" aria-hidden="true"></i></h2>
-					<img class="img-gallery" src="https://images.unsplash.com/photo-1543328874-afb1164619bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1693&q=80" class="img-gallery images-hover" width=380 height=300 alt="adventures image">
+					<h2><i class="fa fa-bicycle" aria-hidden="true"></i> ACTIVITIES</h2>
+					<img class="img-gallery" src="https://images.unsplash.com/photo-1511268559489-34b624fbfcf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" width=380 height=300 alt="adventures image">
       </div>
 					<div class="col-sm-12 col-md-4">
-						<h2>FOOD</h2>
-    
-						<img class="img-gallery" src="https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" class="img-gallery images-hover" width=380 height=300 alt="food images">
+						<h2><i class="fa fa-cutlery" aria-hidden="true"></i> FOOD</h2>
+						<img class="img-gallery" src="https://images.unsplash.com/photo-1573397339599-2feb7c21313b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" width=380 height=300 alt="food images">
       </div>
 					</div>
 	</section>
-
 
 	<footer class="container-fluid text-center bg-dark">
 		<div class="row">
@@ -85,12 +80,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="assets/js/main.js" async defer></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&libraries=geometry&callback=initMap"
-		async defer></script>
-
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjL9wjhO5TxvYUyDst3LIz0N6N_K_S-1g&libraries=geometry&callback=initMap" async defer></script>
 </body>
-
 </html>
