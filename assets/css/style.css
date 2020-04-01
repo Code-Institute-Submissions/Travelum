@@ -16,7 +16,7 @@ body {
           #myCountry {
         position: relative;
         overflow: hidden;
-        display: none;
+        display: block;
         background: black;
         color: #fafafa;
     }
@@ -27,13 +27,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100px;
-    height: 30px;
+    width: 6rem;
+    height: 1.9rem;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     border-radius: 0.25rem;
-    margin-left: 5px;
+    margin-left: 0.3rem;
     background-color: #fff;
     opacity: 0.9;
 }
@@ -80,7 +80,7 @@ body {
     color: #fafafa;
 }
 
-/*CONTACT-Section*/
+/*CONTACT SECTION*/
 
 #contact-section {
     background: url("https://images.unsplash.com/photo-1485770958101-9dd7e4ea6d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
@@ -90,6 +90,9 @@ body {
     background-repeat: no-repeat;
     margin: 0;
 }
+
+
+/*FORM*/
 
 #form-section {
     background: #000;
@@ -111,6 +114,7 @@ body {
     text-decoration: underline;
 }
 
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -121,4 +125,26 @@ img {
 /*BUTTONS*/
 .btn-success {
     margin-top: 2rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img-gallery {
+        width: 18rem;
+        height: 14rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-gallery {
+        width: 14rem;
+        height: 12rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-size {
+    width: 45vw;
+    }
 }
