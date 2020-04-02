@@ -1,9 +1,9 @@
-# Travelum :airplane:
+# TRAVELUM :airplane:
 Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
 
 ## Introduction :crossed_flags:
 Welcome to Travelum!
-Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people how loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy days!
+Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people how loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
 
 ## UX :family:
 #### Project Goals
@@ -42,6 +42,20 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 
 
 ## Features
+-	Interactive navigation bar. Allows users to navigate to top of the site through navbar brand and also navigate to the contact page through contact link.
+-	Interactive footer. Allows user to check out our social media channels through external icon links with target="blank".
+-	Marker drop. For UX when user arrives to landing page or reloads landing page.
+-	Marker information. Allows user to get some facts about targeted destination when clicking on desired marker.
+-	Onclick function on markers. Allows users to see images and videos with landmarks, activities and foods, for the destination.
+-	Contact form. Allows users to ask questions and have contact with the support team.
+-	Responsive for all devices. Allows users to interact with the website with different devices, as laptop, iPad and smartphone.
+
+#### Future Features
+-	Zoom function on each marker, that zooms in the destination when clicking on it.
+-	Bounce marker. When clicking on a marker, the chosen marker bounces for better UX.  
+-	FAQ. A section that answers some of the most common questions asked by users.
+-	Order page. A section that allows the user to make the payment for the chosen order.
+
 
 #### Wireframes
 Here is the link to see the [Wireframes]()
