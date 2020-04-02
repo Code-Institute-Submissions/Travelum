@@ -101,26 +101,26 @@ Here is the link to see the [Wireframes]()
 * Overall testing from fellow students from the [Slack](https://slack.com/intl/en-se/?eu_nc=1) community.
 
 ## Deployment
-The project was created by using the IDE services of [Gitpod](https://www.gitpod.io/), from Gitpod the project was committed and pushed to Github from the master branch.
+The project was created by using the IDE services of [Gitpod](https://www.gitpod.io/), from Gitpod the project was committed to Git and pushed to Github from the master branch.
 
 This process was taken to deploy the website, from Github repositories:
+1. You can log into [Github Pages](https://pages.github.com/)
+2. From the repositories shown, choose: Sebastian-Torres-Matrix/Travelum.
+3. On the menu bar at the top, to the right you can click on __Settings__.
+4. From there you can scroll down to the section __Github Pages__.
+5. On the headline __Source__ you can choose __master branch__, from the dropdown menu.
+6. When choosing __master branch__, the master branch is deployed and also up to date: with access to the link to: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
+7. During the project, it has always been the master branch that has been deployed to Github Pages.
 
-You can log into [Github Pages](https://pages.github.com/)
-From the repositories shown, choose: Sebastian-Torres-Matrix/bucket-list-adventures.
-On the menu bar at the top, to the right you can click on __Settings__
-From there you can scroll down to the section __Github Pages__
-On the headline __Source__ you can choose __master branch__, from the dropdown menu.
-When choosing __master branch__, the master branch is deployed and also up to date: with access to the link to: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
-During the project, it has always been the master branch that has been deployed to Github Pages.
 If you want to run this project locally, you can clone this repository from Gitbuh Pages by following this steps:
+1. Use this link to get to the Github repository: https://github.com/Sebastian-Torres-Matrix/Travelum .
+2. On the menu bar at the top, to the right, choose the green button named __Clone or download__.
+3. In the __Clone with HTTPS__, you can copy the __web URL__.
+4. Open __Git bash__, in your __local IDE__.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and use the __web URL__ from __Clone with HTTPS__: https://github.com/Sebastian-Torres-Matrix/Travelum.git
+7. Press __Enter__, and your local clone will be created.
 
-Use this link to get to the Github repository: https://github.com/Sebastian-Torres-Matrix/Travelum
-On the menu bar at the top, to the right, choose the green button named __Clone or download__.
-In the __Clone with HTTPS__, you can copy the __web URL__.
-Open __Git bash__, in your __local IDE__.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and use the __web URL__ from __Clone with HTTPS__: https://github.com/Sebastian-Torres-Matrix/Travelum.git
-Press __Enter__, and your local clone will be created.
 For more information about how to Git Clone, you can find it [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
