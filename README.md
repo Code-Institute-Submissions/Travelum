@@ -6,9 +6,42 @@ This website was created based on the skills learned from Code Institute’s Ful
 
 The website is designed for people who seek to find travel destinations and information, in a easy way, thanks to Google Maps API.
 
-Visit the website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
+Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
 
-## UX
+## UX :family:
+#### Project Goals
+-	Make it easy and quick to make decisions on travel destinations
+-	Give travelers visual information and tips, on activities and food for the offered destinations
+-	Be able to have contact and answer questions through our contact form
+-	Give more visual information on the destinations with images and videos, through our social media channels.
+
+#### User Stories
+-	As a user I want a website that in a easy, visual and informative way, that can help me find my next holiday destination.
+-	As a user I want to be able to contact the support, if I have further questions
+-	As I potential buyer I want to be able to gather more information through social media connected to the company.
+-	As David, I want to have a visual map overview of the destinations offered by the company
+-	As Maria, I want to see engaging images/videos for each destination
+-	As Jacob, I want to be able to interact on all my devices. On my laptop, iPad and smartphone
+-	As Jennifer, I prefer fewer quality destination choices, instead of too much to choose from.
+-	As Bruno, I want a lean and easy website to navigate through
+-	As Daniela, I want some facts and short information for each destination
+-	As Julia I want to be able to choose from destinations in different continents, all over the world
+-	As John I would like to see different activities that are possible to do in each destination
+-	As Richard I want some visual information of local foods that each destination offers
+-	As Jake I want to be able to visit and see different landmarks on each destination
+
+
+> “*As a busy worker, husband and dad of four children, when I have vacations I want it to be fast and easy, when looking for travel destinations, preferably with suggestions on activities, things to see and places to eat in the travel destination. So I can be productive with my free time and make quick decisions, so I can spend more time with the ones that matter most, my family.*”  
+/ **Seth** 
+
+
+> “*As a couple, me and my girlfriend want to be able to choose from different popular destinations around the world. We use social media frequently and would love to see visual images from the different destinations, to make the best decision, based on concrete information. Also we love food and always try different locals food!*” 
+/ **Johnny and Lisa**
+
+
+
+> “*When choosing the right website when purschasing my travels. I like it to be lean and clean. Not to many choices, wich leads me to procrastinate. I use different technical devices and it is important for me that the website runs smoothly on all my devices. Also, if I feel insecure or have further questions, I would like to be able to contact the support team.*”  
+/ **Emelie**
 
 
 ## Features
