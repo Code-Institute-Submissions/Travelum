@@ -124,25 +124,21 @@ If you want to run this project locally, you can clone this repository from Gitb
 For more information about how to Git Clone, you can find it [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
-#### Coding
-* Background position, Chris Coyier on CSS-tricks
 
-#### Animations
-* Font Awesome , for the excellent open source gallery with icons.
+#### Content
+* Background position, Chris Coyier on CSS-tricks
+* Font Awesome, for the excellent open source gallery with icons.
 
 #### Media
-
-
-#### Acknowledgements and other resources
-* Fellow __Code Institute students__ on Slack. For the support and feedback.
-
-* __Simen Daehlin__, for excellent mentorship, with great guidance and feedback.
-
 * These websites, for the excellent content, with explanations and tutorials:
-
     * [MDN](https://developer.mozilla.org/en-US/)
     * [W3Schools](https://www.w3schools.com/)
     * [Youtube](https://www.youtube.com/?hl=sv&gl=SE)
-    
 
+#### Acknowledgements
+* Fellow __Code Institute students__ on Slack. For the support and feedback.
+* __Simen Daehlin__, for excellent mentorship, with great guidance and feedback.
+ 
+## Disclaimer
+The content of this website, are for educational purpose only.
 
