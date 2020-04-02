@@ -1,12 +1,9 @@
-# Travelum
-Interactive Frontend Development Milestone Project, Code Institute
-
-Introduction
-This website was created based on the skills learned from Code Institute’s Full Stack Software Developement course. This is the secone individual milestone project during the course, wich focuses on The DOM, jQuery, Javascript, Responsive Design and UX desing.
-
-The website is designed for people who seek to find travel destinations and information, in a easy way, thanks to Google Maps API.
-
+# Travelum :airplane:
 Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
+
+## Introduction :crossed_flags:
+Welcome to Travelum!
+Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people how loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy days!
 
 ## UX :family:
 #### Project Goals
