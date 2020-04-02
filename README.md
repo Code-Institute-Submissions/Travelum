@@ -40,8 +40,12 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 > “*When choosing the right website when purschasing my travels. I like it to be lean and clean. Not to many choices, wich leads me to procrastinate. I use different technical devices and it is important for me that the website runs smoothly on all my devices. Also, if I feel insecure or have further questions, I would like to be able to contact the support team.*”  
 / **Emelie**
 
+#### Wireframes
+Here is the link to see the [Wireframes]()
 
 ## Features
+
+#### Existing Features
 -	Interactive navigation bar. Allows users to navigate to top of the site through navbar brand and also navigate to the contact page through contact link.
 -	Interactive footer. Allows user to check out our social media channels through external icon links with target="blank".
 -	Marker drop. For UX when user arrives to landing page or reloads landing page.
@@ -50,27 +54,40 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 -	Contact form. Allows users to ask questions and have contact with the support team.
 -	Responsive for all devices. Allows users to interact with the website with different devices, as laptop, iPad and smartphone.
 
-#### Future Features
+#### Features Left to Implement
 -	Zoom function on each marker, that zooms in the destination when clicking on it.
 -	Bounce marker. When clicking on a marker, the chosen marker bounces for better UX.  
 -	FAQ. A section that answers some of the most common questions asked by users.
 -	Order page. A section that allows the user to make the payment for the chosen order.
 
-
-#### Wireframes
-Here is the link to see the [Wireframes]()
-
 ## Technologies Used
-* CSS3 and [JQuery](https://jquery.com/) was the language used in the styling and formatting the website content, to improve the UX.
-* [Bootstrap](https://getbootstrap.com/) is a front-end component library, that was used to build responsive, mobile-first projects on the website.
-* [Google Maps API](https://developers.google.com/maps/documentation) used to displays a map through Google, with markers on the chosen locations.
-* [EmailJS](https://www.emailjs.com/)
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) was used to ensure that the responsive design worked properly and to debug throght the console.
-* [Gitpod](https://www.gitpod.io/) was the cloud-based IDE used, to write, run, and debug code with the web browser and to create the website.
-* [Git](https://git-scm.com/) was used for version control, o have a working copy/snippet of the code and full change history on the local machine.
-* [tinypng](https://tinypng.com/)
-* [FontAwesome](https://fontawesome.com/) was the prefered library, for the icons used on the website
-* [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the project.
+* This project uses HTML, CSS and JavaScript programming languages.
+
+#### Tools
+* [JQuery](https://jquery.com/) 
+    * The project uses JQuery to simplify DOM manipulation.
+* [Bootstrap](https://getbootstrap.com/) 
+    * Is a front-end component library, that was used to build responsive, mobile-first projects on the website.
+* [Google Maps API](https://developers.google.com/maps/documentation) 
+    * To add an interactive map.
+* [EmailJS](https://www.emailjs.com/) 
+    * To send email directly from your client-side Javascript code. 
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) 
+    * Was used to ensure that the responsive design worked properly and to debug code.
+* [Gitpod](https://www.gitpod.io/) 
+    * Was the cloud-based IDE used, to write, run and create the website.
+* [Git](https://git-scm.com/) 
+    * Was used for version control.
+* [Github](https://github.com/) 
+    * Was used to host the project in a remote repository.
+* [Balsamiq](https://balsamiq.com/) 
+    * Was used to create the wireframes for the project.
+* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) 
+    * To mockup the web template on various devices
+* [FontAwesome](https://fontawesome.com/) 
+    * Was the prefered library, for the icons used on the website
+* [Brandbucket](https://www.brandbucket.com/) 
+    * Was used to generate the brand logo.
 
 
 ## Testing
