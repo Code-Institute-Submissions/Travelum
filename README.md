@@ -5,8 +5,33 @@ Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Tra
 Welcome to Travelum!
 Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people who loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
 
+
+## Table of Contents
+1. [UX](#ux)
+    * [Project Goals](#project-goals)
+    * [User Stories](#user-stories)
+    * [Design Choices](#design-choices)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+    * [Tools](#tools)
+
+4. [Testing](#testing)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+
+7. [Disclaimer](#disclaimer)
+
+
 ## UX :art:
-#### Project Goals :dart:
+#### [Project Goals] :dart: 
 -	Make it easy and quick to make decisions on travel destinations.
 -	Give travelers visual information and tips, on activities and food for the offered destinations.
 -	Be able to have contact and answer questions through our contact form.
@@ -39,6 +64,8 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 > “*When choosing the right website when purschasing my travels. I like it to be lean and clean. Not to many choices, wich leads me to procrastinate. I use different technical devices and it is important for me that the website runs smoothly on all my devices. Also, if I feel insecure or have further questions, I would like to be able to contact the support team.*”  
 / **Emelie** :woman:
 
+#### Design Choices
+
 #### Wireframes
 Here is the link to see the [Wireframes]()
 
@@ -60,7 +87,7 @@ Here is the link to see the [Wireframes]()
 -	Order page. A section that allows the user to make the payment for the chosen order.
 
 ## Technologies Used :computer: 
-* This project uses HTML, CSS and JavaScript programming languages.
+* This project uses HTML, CSS and JavaScript programming languages. 
 
 #### Tools :wrench:
 * [JQuery](https://jquery.com/) 
