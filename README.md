@@ -31,7 +31,7 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 
 
 ## UX :art:
-#### [Project Goals] :dart: 
+#### Project Goals :dart: 
 -	Make it easy and quick to make decisions on travel destinations.
 -	Give travelers visual information and tips, on activities and food for the offered destinations.
 -	Be able to have contact and answer questions through our contact form.
@@ -67,7 +67,7 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 #### Design Choices
 
 #### Wireframes
-Here is the link to see the [Wireframes]()
+Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/assets/wireframes)
 
 ## Features :mag_right:
 
@@ -167,3 +167,6 @@ For more information about how to Git Clone, you can find it [here](https://help
  
 ## Disclaimer :heavy_exclamation_mark:
 The content of this website is for __educational purpose__ only.
+
+## Back to the top :arrow_up:
+[Table of Contents](#table-of-contents)
