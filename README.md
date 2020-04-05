@@ -6,7 +6,7 @@ Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Tra
 ## Introduction 
 :crossed_flags:
 Welcome to Travelum!
-Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people who loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
+Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people who loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
 
 
 ## Table of Contents
@@ -74,7 +74,7 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 
 #### Wireframes
 The wireframes were created using [Balsamiq](https://balsamiq.com/).
-Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
+- Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
 
 ## Features 
 :mag_right:
@@ -123,21 +123,122 @@ Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Mat
 * [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) 
     * To mockup the web template on various devices
 * [FontAwesome](https://fontawesome.com/) 
-    * Was the prefered library, for the icons used on the website
+    * Was the prefered library, for the icons used on the website.
 * [Brandbucket](https://www.brandbucket.com/) 
     * Was used to generate the brand logo.
 
-
 ## Testing
 :electric_plug:
-#### Code testing
-* [W3C Markup Validation](https://validator.w3.org/): HTML5, was used to test the markup validity of web documents in HTML
-* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input): CSS3, used to check CSS3 validation.
-* [AutoPrefixer](https://autoprefixer.github.io/): CSS and web browser, was used to make sure that used CSS coding was valid for all web browsers.
-* [Google Chrome](https://www.google.com/intl/sv/chrome/): Web browser, was used to test the website.
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools): Responsive design and Chrome Developer Tools, was tested to make sure that the layout was adjusted properly for different screen size devices.
-* [JShint](https://jshint.com/)
-* Overall testing from fellow students from the [Slack](https://slack.com/intl/en-se/?eu_nc=1) community.
+#### Automated testing
+* [W3C Markup Validation](https://validator.w3.org/), was used to check HTML5 validation.
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input), was used to check CSS3 validation.
+* [JShint](https://jshint.com/), was used to check Javascript validation.
+* [AutoPrefixer](https://autoprefixer.github.io/), was used to make sure that CSS3 was valid for all web browsers.
+* [Google Chrome](https://www.google.com/intl/sv/chrome/), was used to test the web browser.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), was used to test the responsive design for different devices. 
+* [Slack](https://slack.com/intl/en-se/?eu_nc=1), overall testing from fellow students from the community.
+
+#### User Stories Testing
+1. As David, I want to have a visual map overview of the destinations offered by the company.
+    - A map is applied on the landing page and works as intended.
+2. As Maria, I want to see engaging images/videos for each destination.
+    - Engaging images are applied for each destination. 
+3. As Jacob, I want to be able to interact on all my devices. On my laptop, iPad and smartphone.
+    - Responsive design has been tested, to make sure that the website works well on all devices.
+4. As John I would like to see different activities that are possible to do in each destination.
+    - We have now applied images with different activity suggestions to do on each destination.
+5. As Richard I want some visual information of local foods that each destination offers.
+    - - We have now applied images with different local food suggestions to try for each destination.
+6. As Jake I want to be able to visit and see different landmarks on each destination.
+    - - We have now applied images with different landmark suggestions to visit for each destination.
+
+#### Manual Testing
+
+1. Navbar
+    1. Ensure that the logo icon and contact link loads correctly.      
+    2. Ensure positioning works properly.
+    3. Ensure that navbar is fixed when scrolling down.
+    4. Click on logo.
+    5. Ensure that logo work and takes you to start position when clicking.
+    6. Click on contact link.
+    7. Ensure links works properly and takes you to the contact page.
+
+1. Map
+    1. Ensure that markers drop for each destination, when page is loaded.
+    2. Click on a marker/destination.
+    3. Ensure that info window pops up with content and image.
+    4. Click on the link/button on the info window.
+    5. Ensure that the link works and takes you to the correct page.
+    6. Ensure that the button loads images when clicking the button/link.
+
+1. Images
+    1. Ensure that images loads.
+    2. Ensure that images shadow works.
+    3. Ensure that correct position is coded.
+    4. Ensure that images works on all devices.
+    5. Ensure that responsive design works.
+
+1. Social Media Icons
+    1. Ensure that icons loads correctly.
+    2. Ensure that positioning worked properly.
+    3. Ensure that hover works.
+    4. Click on icons.
+    5. Ensure links works properly and opened in a new tab for each icon. 
+
+1. Contact form:
+    1. Go to the "Contact" page.
+    2. Try to submit the empty form and verify that an error message about the required fields appears.
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+    4. Try to submit the form with all inputs valid and verify that message has been sent.
+
+1. Chrome
+    1. Test that website works on Chrome web browser.
+
+1. Responsiveness
+    1. Use Bootstrap for a responsive website.
+    2. Test the different breakpoints.
+    3. Test regularly with DevTools to make sure that pages are responsive, on all devices.
+
+#### Bugs
+__Markers__
+    - Did not show info window with content, when clicking.
+    - Solution: Added a event.addListener with a function.
+
+__Drop Markers__
+    - Markers did not drop when loading landing page.
+    - Solution: Figured out how the iteration with the for loop worked.
+
+__One marker responsive__
+    - Only New York marker worked as intended.
+    - All markers suppose to load images of the destination, when clicking on button/link in the info window.
+    - Tried many different ways, many hours of googling and Youtube-videos to learn and find the solution.
+
+__Contact alignment__
+    - Did not align to the right. Kept to the left next to brand logo.
+    - Solution: added BootsTap “mr-auto” class.
+
+__Form/E-mail__
+    - Did not work when testing to “Send”.
+    - Solution: Added “response” and “error” as parameters to functions.
+
+__Fontawesome icons__
+    - Some of the Icons from Font Awesome did not work as intended. 
+    - Realized that the icons were from different versions of Font Awesome. 
+    - Solution: find all icons that was responsive for the applied Font Awesome CDN version. 
+
+__Google Maps API__
+    - API did not load and was not working.
+    - Realized that there are different API keys for different maps.
+    - Soultuion: Found the correct API key that worked for the chosen map.
+
+__Loading map laging__
+    - Map was lagging when loading page.
+    - Had the “script src” at the top.
+    - Solution: erased async/defer and put the “script src” at the bottom.
+
+__Responsive Design__
+    - Responsive design was not working on all devices.
+    - Added media queries in css 
 
 ## Deployment
 :rocket:
