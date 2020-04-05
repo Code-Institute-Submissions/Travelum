@@ -1,4 +1,5 @@
 # TRAVELUM 
+![Multi Device Website Mockup](assets/images/logo-travelum.png)
 :airplane:
 Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
 
