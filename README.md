@@ -1,7 +1,9 @@
-# TRAVELUM :airplane:
+# TRAVELUM 
+:airplane:
 Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Travelum/)
 
-## Introduction :crossed_flags:
+## Introduction 
+:crossed_flags:
 Welcome to Travelum!
 Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people who loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with  few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
 
@@ -30,14 +32,18 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 7. [Disclaimer](#disclaimer)
 
 
-## UX :art:
-#### Project Goals :dart: 
+## UX 
+:art:
+
+#### Project Goals 
+:dart: 
 -	Make it easy and quick to make decisions on travel destinations.
 -	Give travelers visual information and tips, on activities and food for the offered destinations.
 -	Be able to have contact and answer questions through our contact form.
 -	Give more visual information on the destinations with images and videos, through our social media channels.
 
-#### User Stories :clapper: 
+#### User Stories 
+:clapper: 
 -	As a user I want a website that in a easy, visual and informative way, that can help me find my next holiday destination.
 -	As a user I want to be able to contact the support, if I have further questions.
 -	As I potential buyer I want to be able to gather more information through social media connected to the company.
@@ -69,7 +75,8 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 #### Wireframes
 Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/assets/wireframes)
 
-## Features :mag_right:
+## Features 
+:mag_right:
 
 #### Existing Features
 -	Interactive navigation bar. Allows users to navigate to top of the site through navbar brand and also navigate to the contact page through contact link.
@@ -86,10 +93,14 @@ Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Mat
 -	FAQ. A section that answers some of the most common questions asked by users.
 -	Order page. A section that allows the user to make the payment for the chosen order.
 
-## Technologies Used :computer: 
+## Technologies Used 
+:computer: 
+
 * This project uses HTML, CSS and JavaScript programming languages. 
 
-#### Tools :wrench:
+#### Tools 
+:wrench:
+
 * [JQuery](https://jquery.com/) 
     * The project uses JQuery to simplify DOM manipulation.
 * [Bootstrap](https://getbootstrap.com/) 
@@ -149,24 +160,32 @@ If you want to run this project locally, you can clone this repository from Gitb
 
 For more information about how to Git Clone, you can find it [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
-## Credits :trophy:
+## Credits 
+:trophy:
 
 #### Content
-* [Background position](https://css-tricks.com/perfect-full-page-background-image/), Chris Coyier on CSS-tricks
-* Font Awesome, for the excellent open source gallery with icons.
-
-#### Media
 * These websites, for the excellent content, with explanations and tutorials:
+    * [Background position](https://css-tricks.com/perfect-full-page-background-image/), Chris Coyier on CSS-tricks
+    * [Google](https://www.google.com/)
     * [MDN](https://developer.mozilla.org/en-US/)
+    * [StackOverflow](https://stackoverflow.com/)
     * [W3Schools](https://www.w3schools.com/)
     * [Youtube](https://www.youtube.com/?hl=sv&gl=SE)
+    
+#### Media
+* [Brandbucket](https://www.brandbucket.com/), for generating and creating the logo icon.
+* [Font Awesome](https://fontawesome.com/), for the excellent open source gallery with icons.
+* [Unsplash](https://unsplash.com/) and [Google Images](https://www.google.com/imghp?hl=en), for all the embedded images used in the project
 
 #### Acknowledgements
-* Fellow __Code Institute students__ on [Slack](https://slack.com/intl/en-se/). For the support and feedback.
-* __Simen Daehlin__, for excellent mentorship, with great guidance and feedback.
+* Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). 
+For the support and feedback.
+* Simen Daehlin, for excellent mentorship, with great guidance and feedback.
  
-## Disclaimer :heavy_exclamation_mark:
-The content of this website is for __educational purpose__ only.
+## Disclaimer 
+:heavy_exclamation_mark:
+The content of this website is for educational purpose only.
 
-## Back to the top :arrow_up:
+## Back to the top 
+:arrow_up:
 [Table of Contents](#table-of-contents)
