@@ -32,9 +32,7 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 
 7. [Disclaimer](#disclaimer)
 
-
 ## UX 
-:art:
 
 #### Project Goals 
 :dart: 
@@ -72,9 +70,11 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 / **Emelie** :woman:
 
 #### Design Choices
+:art:
 
 #### Wireframes
-Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/assets/wireframes)
+The wireframes were created using [Balsamiq](https://balsamiq.com/).
+Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
 
 ## Features 
 :mag_right:
@@ -129,6 +129,7 @@ Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Mat
 
 
 ## Testing
+:electric_plug:
 #### Code testing
 * [W3C Markup Validation](https://validator.w3.org/): HTML5, was used to test the markup validity of web documents in HTML
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input): CSS3, used to check CSS3 validation.
@@ -139,6 +140,7 @@ Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Mat
 * Overall testing from fellow students from the [Slack](https://slack.com/intl/en-se/?eu_nc=1) community.
 
 ## Deployment
+:rocket:
 The project was created by using the IDE services of [Gitpod](https://www.gitpod.io/), from Gitpod the project was committed to Git and pushed to Github from the master branch.
 
 This process was taken to deploy the website, from Github repositories:
@@ -162,7 +164,6 @@ If you want to run this project locally, you can clone this repository from Gitb
 For more information about how to Git Clone, you can find it [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits 
-:trophy:
 
 #### Content
 * These websites, for the excellent content, with explanations and tutorials:
@@ -181,7 +182,7 @@ For more information about how to Git Clone, you can find it [here](https://help
 #### Acknowledgements
 * Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). 
 For the support and feedback.
-* Simen Daehlin, for excellent mentorship, with great guidance and feedback.
+* Simen Daehlin, for excellent mentorship, with great guidance and feedback. :trophy:
  
 ## Disclaimer 
 :heavy_exclamation_mark:
