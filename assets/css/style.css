@@ -12,6 +12,9 @@ body {
         margin: 5rem auto 1rem auto;
         font-size: 1.5rem;
         }
+        h2 {
+    color: #fff;
+}
 
         #map {
         height: 80%;
@@ -113,16 +116,12 @@ body {
     padding: 4rem 6rem;
 }
 
-/*IMAGES*/
+/*VIDEOS*/
 .video-gallery-headline {
     color: #fff;
     margin: 5rem auto 1rem auto;
     text-decoration: underline;
     font-size: 1.5rem;
-}
-
-h2 {
-    color: #fff;
 }
 
 .videos-gallery {
