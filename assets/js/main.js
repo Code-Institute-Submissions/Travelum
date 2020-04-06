@@ -27,7 +27,7 @@ function initMap() {
             5,
         ],
         [
-            `<a href="javascript:;" onclick="displayDestination()">New York</a><br>
+            `<b><a href="ny.html">New York</a></b><br>
         Country: USA<br>
         Language:English<br>
         Population: 8.6 million<br>
@@ -136,36 +136,9 @@ function initMap() {
             })(marker, i)
         );
     }
-
-    let currentInfoWindow = null;
-    let infowindow = new google.maps.InfoWindow({});
-
-
-    google.maps.event.addListener(marker, "click", function () {
-        if (marker.getAnimation() !== null) {
-            marker.setAnimation(null);
-        } else {
-            marker.setAnimation(google.maps.Animation.BOUNCE);
-        }
-
-        infowindow.open(map, marker);
+        let currentInfoWindow = null;
+        let infowindow = new google.maps.InfoWindow({});
         currentInfoWindow = infowindow;
-        google.maps.event.addListenerOnce(
-            currentInfoWindow,
-            "domready",
-            function () {
-                $("#id").attr("src", "#");
-            }
-        );
-    });
+        google.maps.event.addListenerOnce(currentInfoWindow);
 }
-
-function displayDestination() {
-    let myLocation = document.getElementById("myCountry");
-    if (myLocation.style.display === "none") {
-        myLocation.style.display = "block";
-    } else {
-        myLocation.style.display = "none";
-    }
-}
-
+      
