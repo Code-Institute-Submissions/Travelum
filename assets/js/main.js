@@ -116,7 +116,7 @@ function initMap() {
         [`Sydney`, -33.865143, 151.2099, 6],
         [`Tokyo`, 35.652832, 139.839478, 7],
         [`Maldives`, 1.924992, 73.399658, 8],
-        [`Cape Town` - 33.918861, 18.4233, 9],
+        [`Cape Town`, - 33.918861, 18.4233, 9],
     ];
 
     // Creates a marker for each destination 

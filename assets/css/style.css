@@ -1,22 +1,22 @@
-
-
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #0c456b;       
+    background-color: #0c456b;      
 }
 
 h1 {
     margin-top: 2rem auto;
-    color: #fff;
     margin: 5rem auto 1rem auto;
     text-decoration: underline;
     font-size: 2rem;
 } 
 
-h2 {
+h1,
+h2,
+#map-headline,
+.copyright {
     color: #fff;
 }
 
@@ -51,7 +51,6 @@ h2 {
 }
 
 #map-headline {
-    color: #fff;
     margin: 5rem auto 1rem auto;
     font-size: 1.5rem;
 }
@@ -70,7 +69,6 @@ h2 {
 }
 
 .copyright {
-    color: #fff;
     font-size: 0.9rem;
 }
 
@@ -175,7 +173,7 @@ h2 {
 }
 
 #ny {
-    background: url(https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background: url(https://images.unsplash.com/photo-1460551204960-763bc82b7d8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,6 +225,12 @@ h2 {
     }
 }
 
+@media (min-width: 992px) {
+.form-size {
+    width: 45vw;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 .videos-gallery {
     width: 12rem;
@@ -237,9 +241,17 @@ h2 {
     }
 }
 
-@media (min-width: 992px) {
-.form-size {
-    width: 45vw;
+@media (min-width: 768px) {
+    #bar,
+    #ct,
+    #dub,
+    #mal,
+    #ny,
+    #rio,
+    #sthlm,
+    #syd,
+    #tok {
+        height: 100%;
     }
 }
 

@@ -7,7 +7,6 @@ Visit the live website: [Travelum](https://sebastian-torres-matrix.github.io/Tra
 Welcome to Travelum! :crossed_flags: 
 Our goal is to keep it simple and offer wonderful travels to the most popular destinations around the world! It is for all people who loves to travel, everything from families, couples, friends and solo travelers. Our target group is mainly aimed towards travelers who have busy lives or just likes to be productive. So we make it simple with few destinations, visual information and suggestions on activities, foods to eat and places to visit on each destination. If you have any further questions, just fill the contact form and we will get in touch asap. If you want more inspiration and information of each destination, visit our social media channels for more images and videos. Happy traveling! :sunglasses:
  
-
 ## Table of Contents
 1. [UX](#ux)
     * [Project Goals](#project-goals)
