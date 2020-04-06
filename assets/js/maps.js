@@ -1,3 +1,5 @@
+// This file was not used at the end in the project. Further explanation in testing.md in README file.
+
 let map, places, infoWindow;
 let markers = [];
 let autocomplete;

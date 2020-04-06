@@ -71,24 +71,20 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 :art:
 
 * __Icons__
-The chosen icons were used to improve and get a better UX.
+    * The chosen icons were used to improve and get a better UX.
 
 * __Colors__
-  The primary colors chosen was #0c456b #343a40 and #fff. The backgrounds had a dark theme, so it could be
-  a good contrast with the white text, to make easier for the user to absorb and read from the website. 
+    * The primary colors chosen was #0c456b #343a40 and #fff. The backgrounds had a dark theme, so it could be a good contrast with the white text, to make easier for the user to absorb and read from the website. 
 
 * __Backgrounds__
-
-The backgrounds had a darker theme, to fit with the white text. Also most of the backgorunds hade a blury image, that
-was associated with the destination. This approach was to build a the vibe and some excitement for the user. 
+    * The backgrounds had a darker theme, to fit with the white text. Also most of the backgorunds hade a blury image, that was associated with the destination. This approach was to build a the vibe and some excitement for the user. 
 
 * __Videos__
-Videos were used to give the users some visual content and also information about each destination, in a engaging
-and fun way. 
+    * Videos were used to give the users some visual content and also information about each destination, in a engaging and fun way. 
 
 #### Wireframes
-The wireframes were created using [Balsamiq](https://balsamiq.com/).
-- Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
+* The wireframes were created using [Balsamiq](https://balsamiq.com/).
+    * Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
 
 ## Features 
 :mag_right:
@@ -135,7 +131,7 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 ## Testing
 :electric_plug:
-Testing information can be found in this separate file: [testing.md](https://github.com/Sebastian-Torres-Matrix/Travelum/blob/master/testing.md) 
+* Testing information can be found in this separate file: [testing.md](https://github.com/Sebastian-Torres-Matrix/Travelum/blob/master/testing.md) 
 
 ## Deployment
 :rocket:
@@ -172,12 +168,18 @@ For more information about how to Git Clone, you can find it [here](https://help
     * [W3Schools](https://www.w3schools.com/)
     
 #### Media
-* [Brandbucket](https://www.brandbucket.com/), for generating and creating the logo icon.
-* [Flaticon](https://www.flaticon.com/), for all the amazing svg flag icons.
-* [Font Awesome](https://fontawesome.com/), for the excellent open source gallery with icons.
-* [Optimizilla](https://imagecompressor.com/), image compressor to shrink JPEG and PNG images. 
-* [Unsplash](https://unsplash.com/), for all the embedded images used in the project.
-* [Youtube](https://www.youtube.com/?hl=sv&gl=SE), for all the embedded videos used in the project.
+* [Brandbucket](https://www.brandbucket.com/)
+    * For generating and creating the logo icon.
+* [Flaticon](https://www.flaticon.com/)
+    * For all the amazing svg flag icons.
+* [Font Awesome](https://fontawesome.com/)
+    * For the excellent open source gallery with icons.
+* [Optimizilla](https://imagecompressor.com/)
+    * Image compressor to shrink JPEG and PNG images. 
+* [Unsplash](https://unsplash.com/) 
+    * For all the embedded images used in the project.
+* [Youtube](https://www.youtube.com/?hl=sv&gl=SE)
+    * For all the embedded videos used in the project.
 
 #### Acknowledgements
 * Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). For the support and feedback.
@@ -186,9 +188,7 @@ For more information about how to Git Clone, you can find it [here](https://help
     * [Linkedin](https://uk.linkedin.com/in/simendaehlin)
  
 ## Disclaimer 
-:heavy_exclamation_mark:
-The content of this website is for educational purpose only.
+* The content of this website is for educational purpose only. :heavy_exclamation_mark:
 
 ## Back to the top 
-:arrow_up:
-[Table of Contents](#table-of-contents)
+* [Table of Contents](#table-of-contents) :arrow_up:
