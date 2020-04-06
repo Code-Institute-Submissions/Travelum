@@ -95,39 +95,31 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
 ## Technologies Used 
 :computer: 
 
-* This project uses HTML, CSS and JavaScript programming languages. 
+#### Languages
+* HTML
+* CSS 
+* JavaScript 
+
+#### Libaries & Frameworks
+* [Bootstrap](https://getbootstrap.com/) 
+* [EmailJS](https://www.emailjs.com/)  
+* [FontAwesome](https://fontawesome.com/) 
+* [Google Maps API](https://developers.google.com/maps/documentation) 
+* [JQuery](https://jquery.com/) 
 
 #### Tools 
 :wrench:
-
-* [JQuery](https://jquery.com/) 
-    * The project uses JQuery to simplify DOM manipulation.
-* [Bootstrap](https://getbootstrap.com/) 
-    * Is a front-end component library, that was used to build responsive, mobile-first projects on the website.
-* [Google Maps API](https://developers.google.com/maps/documentation) 
-    * To add an interactive map.
-* [EmailJS](https://www.emailjs.com/) 
-    * To send email directly from your client-side Javascript code. 
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) 
-    * Was used to ensure that the responsive design worked properly and to debug code.
-* [Gitpod](https://www.gitpod.io/) 
-    * Was the cloud-based IDE used, to write, run and create the website.
-* [Git](https://git-scm.com/) 
-    * Was used for version control.
-* [Github](https://github.com/) 
-    * Was used to host the project in a remote repository.
 * [Balsamiq](https://balsamiq.com/) 
-    * Was used to create the wireframes for the project.
-* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) 
-    * To mockup the web template on various devices
-* [FontAwesome](https://fontawesome.com/) 
-    * Was the prefered library, for the icons used on the website.
 * [Brandbucket](https://www.brandbucket.com/) 
-    * Was used to generate the brand logo.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) 
+* [Git](https://git-scm.com/) 
+* [Github](https://github.com/) 
+* [Gitpod](https://www.gitpod.io/) 
+* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) 
 
 ## Testing
 :electric_plug:
-#### Automated testing
+
 * [W3C Markup Validation](https://validator.w3.org/)
     - Was used to check HTML5 validation.
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -140,8 +132,6 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
     - Was used to test the web browser.
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
     - Was used to test the responsive design for different devices. 
-* [Slack](https://slack.com/intl/en-se/?eu_nc=1)
-    - Overall testing from fellow students from the community.
 
 #### User Stories Testing
 1. As __David__, I want to have a visual map overview of the destinations offered by the company.
@@ -176,11 +166,11 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
     5. Ensure that the link works and takes you to the correct page.
     6. Ensure that the button loads images when clicking the button/link.
 
-1. __Images__
-    1. Ensure that images loads.
-    2. Ensure that images shadow works.
+1. __Videos__
+    1. Ensure that videos loads.
+    2. Ensure that video shadow works.
     3. Ensure that correct position is coded.
-    4. Ensure that images works on all devices.
+    4. Ensure that videos works on all devices.
     5. Ensure that responsive design works.
 
 1. __Social Media Icons__
@@ -215,8 +205,49 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 3. __One marker responsive__
     - Only New York marker worked as intended.
-    - All markers suppose to load images of the destination, when clicking on button/link in the info window.
+    - All markers suppose to load images of the destination, when clicking on the link, in the info window.
     - Tried many different ways, many hours of googling and Youtube-videos to learn and find the solution.
+    - I was no able to solve the problem and making the different coding approaches to work. 
+    - At the end closing in on the deadline on the project, I chose to connect the links/destinations to .html files instead.
+    ``` 
+    function displayDestination() {
+        let myLocation = document.getElementById("myCountry");
+        if (myLocation.style.display === "none") {
+          myLocation.style.display = "block";
+        } else {
+          myLocation.style.display = "none";
+        }
+      } 
+      
+      <a href="javascript:;" onclick="displayDestination()">New York</a><br>
+      
+      ```
+      ``` 
+      	<section class="container-fluid text-center" id="myCountry">
+		<div class="row">
+			<div class="col-12">
+            <!-- page headline -->
+				<h1 class="video-gallery-headline text-center">NEW YORK</h1>
+				<img class="flag-icon" src="https://image.flaticon.com/icons/svg/197/197484.svg" >
+			</div>
+            <!-- videos gallery -->
+				<div class="col-sm-12 col-md-4">
+					<h2>LANDMARKS <i class="fa fa-binoculars" aria-hidden="true"></i></h2>
+					<iframe class="videos-gallery" src="https://www.youtube.com/embed/9QM0tipFQ9c"
+						allowfullscreen></iframe>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<h2>ACTIVITIES <i class="fa fa-bicycle" aria-hidden="true"></i></h2>
+					<iframe class="videos-gallery" src="https://www.youtube.com/embed/1JJfWnAryrM"
+						allowfullscreen></iframe>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<h2>FOOD <i class="fa fa-cutlery" aria-hidden="true"></i></h2>
+					<iframe class="videos-gallery" src="https://www.youtube.com/embed/YvPqrwGDgnM"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+	</section>
 
 4. __Contact alignment__
     - Did not align to the right. Kept to the left next to brand logo.
@@ -243,7 +274,7 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 9. __Responsive Design__
     - Responsive design was not working on all devices.
-    - Added media queries in css 
+    - Solution: Added media queries in css. 
 
 ## Deployment
 :rocket:
@@ -273,22 +304,25 @@ For more information about how to Git Clone, you can find it [here](https://help
 
 #### Content
 * These websites, for the excellent content, with explanations and tutorials:
-    * [Background position](https://css-tricks.com/perfect-full-page-background-image/), Chris Coyier on CSS-tricks
+    * [Background position](https://css-tricks.com/perfect-full-page-background-image/), Chris Coyier on [CSS-tricks](https://css-tricks.com/)
     * [Google](https://www.google.com/)
     * [MDN](https://developer.mozilla.org/en-US/)
     * [StackOverflow](https://stackoverflow.com/)
     * [W3Schools](https://www.w3schools.com/)
-    * [Youtube](https://www.youtube.com/?hl=sv&gl=SE)
     
 #### Media
 * [Brandbucket](https://www.brandbucket.com/), for generating and creating the logo icon.
+* [Flaticon](https://www.flaticon.com/), for all the amazing svg flag icons.
 * [Font Awesome](https://fontawesome.com/), for the excellent open source gallery with icons.
-* [Unsplash](https://unsplash.com/) and [Google Images](https://www.google.com/imghp?hl=en), for all the embedded images used in the project
+* [Optimizilla](https://imagecompressor.com/), image compressor to shrink JPEG and PNG images. 
+* [Unsplash](https://unsplash.com/), for all the embedded images used in the project.
+* [Youtube](https://www.youtube.com/?hl=sv&gl=SE), for all the embedded videos used in the project.
 
 #### Acknowledgements
-* Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). 
-For the support and feedback.
-* Simen Daehlin, for excellent mentorship, with great guidance and feedback. :trophy:
+* Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). For the support and feedback.
+* [Simen Daehlin](https://dehlin.dev/), for excellent mentorship, with great guidance and feedback. :trophy:
+    * [Github](https://github.com/Eventyret)
+    * [Linkedin](https://uk.linkedin.com/in/simendaehlin)
  
 ## Disclaimer 
 :heavy_exclamation_mark:
