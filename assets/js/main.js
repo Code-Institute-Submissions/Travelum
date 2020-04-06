@@ -1,9 +1,11 @@
+// Shows map on landing page and the chosen starting zoom on the map 
 function initMap() {
     let map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(41.390205, 2.154007),
         zoom: 2
     });
-
+ 
+// Content that displays for each destination in info window, when clicking on marker 
     let locations = [
         [
             `<b><a href="bar.html">Barcelona</a></b><br>
@@ -104,6 +106,7 @@ function initMap() {
         ],
     ];
 
+    // Array with title names, that shows when mouse over marker
     let markerTitle = [
         [`Barcelona`, 41.390205, 2.154007, 1],
         [`Rio De Janiero`, -22.908333, -43.196388, 5],
@@ -116,15 +119,19 @@ function initMap() {
         [`Cape Town` - 33.918861, 18.4233, 9],
     ];
 
+    // Creates a marker for each destination 
     let marker, i;
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map,
+            // Creates a drop marker for each destination, when loading or refreshing page 
             animation: google.maps.Animation.DROP,
+            // Shows title of destinations when having cursor over marker
             title: markerTitle[i][0]
         });
 
+        // Opens info window when clicking on marker
         google.maps.event.addListener(
             marker,
             "click",
