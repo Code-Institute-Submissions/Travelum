@@ -205,7 +205,8 @@
     - Started to work on this file, with searchbox and markers.
     - Got stuck on this project and could not find the solution, to make intended markers appear with the searchbox.
     - Started instead with main.js file. 
-    - Was doing A/B testing and it worked better with B, which was the main.js file.
+    - Was doing A/B testing and it worked better with B, which was the main.js file. 
+    - To be clear, A which was maps.js was cancelled, in favor of main.js.
     - Here is a link to the project with the file: [maps.js](https://github.com/Sebastian-Torres-Matrix/Travelum/blob/master/assets/js/maps.js)
 
 10. __Wireframes__

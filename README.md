@@ -70,6 +70,22 @@ Our goal is to keep it simple and offer wonderful travels to the most popular de
 #### Design Choices
 :art:
 
+* __Icons__
+The chosen icons were used to improve and get a better UX.
+
+* __Colors__
+  The primary colors chosen was #0c456b #343a40 and #fff. The backgrounds had a dark theme, so it could be
+  a good contrast with the white text, to make easier for the user to absorb and read from the website. 
+
+* __Backgrounds__
+
+The backgrounds had a darker theme, to fit with the white text. Also most of the backgorunds hade a blury image, that
+was associated with the destination. This approach was to build a the vibe and some excitement for the user. 
+
+* __Videos__
+Videos were used to give the users some visual content and also information about each destination, in a engaging
+and fun way. 
+
 #### Wireframes
 The wireframes were created using [Balsamiq](https://balsamiq.com/).
 - Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/Travelum/tree/master/wireframes)
