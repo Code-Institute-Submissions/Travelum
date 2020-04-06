@@ -119,7 +119,7 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 ## Testing
 :electric_plug:
-Testing information can be found in this separate file: [testing.md]() 
+Testing information can be found in this separate file: [testing.md](https://github.com/Sebastian-Torres-Matrix/Travelum/blob/master/testing.md) 
 
 ## Deployment
 :rocket:

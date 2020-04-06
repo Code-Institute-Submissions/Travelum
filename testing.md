@@ -201,7 +201,18 @@
     - Had the “script src” at the top.
     - Solution: erased async/defer and put the “script src” at the bottom.
 
-9. __Responsive Design__
+9. __maps-js file__
+    - Started to work on this file, with searchbox and markers.
+    - Got stuck on this project and could not find the solution, to make intended markers appear with the searchbox.
+    - Started instead with main.js file. 
+    - Was doing A/B testing and it worked better with B, which was the main.js file.
+    - Here is a link to the project with the file: [maps.js](https://github.com/Sebastian-Torres-Matrix/Travelum/blob/master/assets/js/maps.js)
+
+10. __Wireframes__
+    - Project and wireframes are not fully synced.
+    - Was not able to figure out, how to make .html files load through Javascript, when clicking on marker. 
+
+11. __Responsive Design__
     - Responsive design was not working on all devices.
     - Responsive design shows different in different devices on the same breakpoints.
     - Solution: Added media queries in css and through testing in DevTools. 
