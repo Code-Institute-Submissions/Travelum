@@ -4,8 +4,8 @@ function initMap() {
         zoom: 2
     });
 
-        let locations = [
-          [
+    let locations = [
+        [
             `<b><a href="bar.html">Barcelona</a></b><br>
         Country: Spain<br>
         Language: Spanish<br>
@@ -15,8 +15,8 @@ function initMap() {
             41.390205,
             2.154007,
             1,
-          ],
-          [`<b><a href="rio.html">Rio De Janeiro</a></b><br>
+        ],
+        [`<b><a href="rio.html">Rio De Janeiro</a></b><br>
         Country: Brazil<br>
         Language: Portugese<br>
         Population: 6.3 million<br>
@@ -25,30 +25,30 @@ function initMap() {
             -22.908333,
             -43.196388,
             5,
-          ],
-          [
+        ],
+        [
             `<a href="javascript:;" onclick="displayDestination()">New York</a><br>
         Country: USA<br>
         Language:English<br>
         Population: 8.6 million<br>
         Currency: U.S. Dollar<br>
-        <img src="https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">`,
+        <img src="https://images.unsplash.com/photo-1490644658840-3f2e3f8c5625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">`,
             40.73061,
             -73.935242,
             4,
-          ],
-          [
+        ],
+        [
             `<b><a href="dub.html">Dublin</a></b><br>
         Country: Ireland<br>
         Language: English & Irish<br>
         Population: 1.4 million<br>
         Currency: Euro<br>
-        <img src="https://images.unsplash.com/photo-1565788879729-be4bb0f137cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">`,
+        <img src="https://images.unsplash.com/photo-1554900662-d4fb5f28aa59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height="150" width="150">`,
             53.35014,
             -6.266155,
             3,
-          ],
-          [
+        ],
+        [
             `<b><a href="sthlm.html">Stockholm</a></b><br>
         Country: Sweden<br>
         Language: Swedish<br>
@@ -58,8 +58,8 @@ function initMap() {
             59.334591,
             18.06324,
             2,
-          ],
-          [
+        ],
+        [
             `<b><a href="syd.html">Sydney</a></b><br>
         Country: Australia<br>Language: English<br>
         Population: 5.2 million<br>
@@ -68,8 +68,8 @@ function initMap() {
             -33.865143,
             151.2099,
             6,
-          ],
-          [
+        ],
+        [
             `<b><a href="tok.html">Tokyo</a></b><br>
         Country: Japan<br>
         Language: Japanese<br>
@@ -79,8 +79,8 @@ function initMap() {
             35.652832,
             139.839478,
             7,
-          ],
-          [
+        ],
+        [
             `<b><a href="mal.html">Maldives</a></b><br>
         Country: Maldives<br>
         Language: English<br>
@@ -90,8 +90,8 @@ function initMap() {
             1.924992,
             73.399658,
             8,
-          ],
-          [
+        ],
+        [
             `<b><a href="ct.html">Cape Town</a></b><br>
         Country: South Africa<br>
         Language: English<br>
@@ -101,20 +101,20 @@ function initMap() {
             -33.918861,
             18.4233,
             9,
-          ],
-        ];
+        ],
+    ];
 
-        let markerTitle = [
-          [`Barcelona`, 41.390205, 2.154007, 1],
-          [`Rio De Janiero`, -22.908333, -43.196388, 5],
-          [`New York`, 40.73061, -73.935242, 4],
-          [`Dublin`, 53.35014, -6.266155, 3],
-          [`Stockholm`, 59.334591, 18.06324, 2],
-          [`Sydney`, -33.865143, 151.2099, 6],
-          [`Tokyo`, 35.652832, 139.839478, 7],
-          [`Maldives`, 1.924992, 73.399658, 8],
-          [`Cape Town` - 33.918861, 18.4233, 9],
-        ];
+    let markerTitle = [
+        [`Barcelona`, 41.390205, 2.154007, 1],
+        [`Rio De Janiero`, -22.908333, -43.196388, 5],
+        [`New York`, 40.73061, -73.935242, 4],
+        [`Dublin`, 53.35014, -6.266155, 3],
+        [`Stockholm`, 59.334591, 18.06324, 2],
+        [`Sydney`, -33.865143, 151.2099, 6],
+        [`Tokyo`, 35.652832, 139.839478, 7],
+        [`Maldives`, 1.924992, 73.399658, 8],
+        [`Cape Town` - 33.918861, 18.4233, 9],
+    ];
 
     let marker, i;
     for (i = 0; i < locations.length; i++) {
@@ -136,11 +136,11 @@ function initMap() {
             })(marker, i)
         );
     }
-    
+
     let currentInfoWindow = null;
     let infowindow = new google.maps.InfoWindow({});
 
-    
+
     google.maps.event.addListener(marker, "click", function () {
         if (marker.getAnimation() !== null) {
             marker.setAnimation(null);
